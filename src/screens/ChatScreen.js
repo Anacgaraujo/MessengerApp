@@ -29,15 +29,15 @@ const ChatScreen = () => {
       style={styles.bg}
       keyboardVerticalOffset={Platform.OS === "ios" ? 60 : 90}
     >
-      {/* <ImageBackground source={bg} style={styles.bg}> */}
-      <FlatList
-        data={messages}
-        renderItem={({ item }) => <Message message={item} />}
-        style={styles.list}
-        inverted
-      />
-      <InputBox />
-      {/* </ImageBackground> */}
+      <ImageBackground source={bg} style={styles.bg}>
+        <FlatList
+          data={messages}
+          renderItem={({ item }) => <Message message={item} />}
+          style={styles.list}
+          inverted
+        />
+        <InputBox />
+      </ImageBackground>
     </KeyboardAvoidingView>
   );
 };

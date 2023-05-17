@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-internationalmesseng-staging-02129-authRole",
+      "UnauthRoleArn": "arn:aws:iam::022417849214:role/amplify-internationalmesseng-staging-02129-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::022417849214:role/amplify-internationalmesseng-staging-02129-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-internationalmesseng-staging-02129-deployment",
+      "UnauthRoleName": "amplify-internationalmesseng-staging-02129-unauthRole",
+      "StackName": "amplify-internationalmesseng-staging-02129",
+      "StackId": "arn:aws:cloudformation:us-east-2:022417849214:stack/amplify-internationalmesseng-staging-02129/c4d8d240-f448-11ed-83f8-021a8933628f",
+      "AmplifyAppId": "d18ocrcpyzl589"
+    },
+    "categories": {
+      "auth": {
+        "InternationalMessenger": {}
+      }
+    }
+  }
+}
